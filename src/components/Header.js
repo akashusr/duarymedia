@@ -7,7 +7,7 @@ function Header() {
         <>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="home">
                         <img
                             alt=""
                             srcSet={logo}
@@ -19,11 +19,11 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav className="space-x-2">
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#AboutUs">About us</Nav.Link>
-                            <Nav.Link href="#Work">Work</Nav.Link>
-                            <Nav.Link href="#Info">Info</Nav.Link>
-                            <Nav.Link href="#ContactUs">Contact us</Nav.Link>
+                            <Nav.Link href="home">Home</Nav.Link>
+                            <Nav.Link href="aboutUs">About us</Nav.Link>
+                            <Nav.Link href="work">Work</Nav.Link>
+                            <Nav.Link href="info">Info</Nav.Link>
+                            <Nav.Link href="contactUs">Contact us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
