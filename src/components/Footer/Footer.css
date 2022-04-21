@@ -1,0 +1,25 @@
+.sub-title {
+  font-size: 15px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 12px;
+}
+.f-text {
+  font-size: 10px;
+  color: white;
+}
+
+a > p:hover {
+  color: #26a9e0;
+}
+
+.fa-brands,
+.fab {
+  font-size: 25px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import Notification from './components/Notification';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Notification />
+      <Footer />
     </>
   );
 }
