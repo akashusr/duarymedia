@@ -7,9 +7,9 @@ a {
   text-decoration: none;
 }
 
-p {
+/* .num > p {
   font-size: 12px;
-}
+} */
 .f-text {
   font-size: 10px;
   color: white;
@@ -22,4 +22,10 @@ a > p:hover {
 .fa-brands,
 .fab {
   font-size: 25px;
+}
+.f-gray {
+  background-color: #575757;
+}
+.f-blue {
+  background-color: #00ace4;
 }

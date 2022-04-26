@@ -3,8 +3,8 @@ import logo from '../../image/logoF.svg'
 import './Footer.css'
 function Footer() {
     return (
-        <div className=" bg-dark py-4">
-            <div className="container">
+        <div className=" f-gray">
+            <div className="container pt-4">
                 <div className="row  text-white py-4">
                     <div className="col">
                         <img alt=""
@@ -12,7 +12,7 @@ function Footer() {
                             width="170"
                             // height="30"
                             className="d-inline-block align-center pb-4" src={logo} alt="footerLogo" />
-                        <p className="sub-title ">
+                        <p className="sub-title">
                             Starting its voyage in the year 2000 as a sister concern of Advent Enterprise which was established in 1986, in a humble fashion with only two persons on board, Prionty Edit & Effects today is one of the leading full-service agencies in the country with a particular focus on media buying.</p>
                     </div>
                     <div className="col-lg-6  text-lg-center py-lg-0 py-4 ">
@@ -33,26 +33,30 @@ function Footer() {
                         </div>
 
                     </div>
-                    <div className="col  text-white">
-                        <h4 className="py-lg-0 py-2 text-uppercase" >CONTACT US</h4>
+                    <div className="col text-white">
+                        <h4 className="py-lg-0 mb-4 text-uppercase" >CONTACT US</h4>
                         <div className="num">
-                            <p>OFFICE LINE</p>
+                            <p className="mb-0" >OFFICE LINE</p>
                             <a href="tel:+88-02-8833475-6"><p className="text-white" >+88-02-8833475-6</p></a>
                         </div>
-                        <div className="num py-2">
-                            <p className="" >FAX</p>
+                        <div className="num py-4 ">
+                            <p className="mb-0" >FAX</p>
                             <a href="tel:+880-2-9895730"><p className=" text-white" >+880-2-9895730</p></a>
                         </div>
                         <p className="text-uppercase" >House-167/b, flat-3, Road-23,
                             Mohakhali DOHS, Dahaka- 1206</p>
                     </div>
                 </div>
-                <div className="d-lg-flex justify-content-between ">                <div className="text-center p-2 text-white bg-dark" >
-                    &copy; 2021 Copyright:
-                    <a className="text-white " href="https://duarymedia.com/" > Duarymedia.com</a>
-                </div>
+            </div>
 
-                    <div className="text-center p-2 text-white bg-dark">
+            <div className="f-blue" >
+                <div className="container d-lg-flex align-items-center justify-content-between p-2 text-white ">
+                    <div>
+                        <p className="text-center mb-0">&copy; 2021 <a className="text-white " href="https://duarymedia.com" > Duarymedia.com</a></p>
+
+                    </div>
+
+                    <div className="text-center p-2 text-white f-blue">
                         <a href="" class="me-4 text-white">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
@@ -68,8 +72,8 @@ function Footer() {
                     </div>
                 </div>
             </div>
-
         </div>
+
     )
 }
 

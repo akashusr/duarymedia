@@ -1,0 +1,15 @@
+.contact-bg {
+  background-image: url("../../image/contactBg.png");
+  /* height: 50vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa-solid,
+.fas {
+  font-size: 40px;
+}
+
+.blue {
+  color: #26a9e0;
+}
