@@ -11,7 +11,7 @@ a {
   font-size: 12px;
 } */
 .f-text {
-  font-size: 10px;
+  font-size: 13px;
   color: white;
 }
 
@@ -28,4 +28,7 @@ a > p:hover {
 }
 .f-blue {
   background-color: #00ace4;
+}
+a:hover {
+  color: #00ace4;
 }

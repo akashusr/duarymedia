@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../image/logoF.svg'
 import './Footer.css'
 function Footer() {
@@ -21,15 +22,11 @@ function Footer() {
                         <a className="text-white" href="mailto:Info@duarymedia.com"><h3 className="py-lg-5 py-2 text-white" >Info@duarymedia.com</h3></a>
 
                         <div className="link d-lg-flex justify-content-center">
-                            <a href="HOME"><p className="f-text p-1 " >HOME</p> </a>
-                            <a href="HOME"><p className="f-text p-1 " >ABOUT US</p> </a>
-                            <a href="HOME"><p className="f-text p-1 " >OUR BUSINESS </p></a>
-                            <a href="HOME"><p className="f-text p-1 " >OUR BUSINESS</p></a>
-                            <a href="HOME"><p className="f-text p-1 " >SERVICES </p></a>
-                            <a href="HOME"><p className="f-text p-1 " >OUR WORK </p></a>
-                            <a href="HOME"><p className="f-text p-1 " >BUSINESSWALL </p></a>
-                            <a href="HOME"><p className="f-text p-1 " >CONTACT US</p></a>
-                            <a href="HOME"><p className="f-text p-1 " >CAREER</p></a>
+                            <Link as={Link} to="/" className="f-text p-2" >HOME</Link>
+                            <Link as={Link} to="/services" className="f-text p-2" >SERVICES</Link>
+                            <Link as={Link} to="/aboutUs" className="f-text p-2" >ABOUT US</Link>
+                            <Link as={Link} to="/contactUs" className="f-text p-2" >CONTACT US</Link>
+                            <Link as={Link} to="/career" className="f-text p-2" >CAREER</Link>
                         </div>
 
                     </div>
@@ -57,16 +54,16 @@ function Footer() {
                     </div>
 
                     <div className="text-center p-2 text-white f-blue">
-                        <a href="" class="me-4 text-white">
+                        <a href="https://www.facebook.com" target="_blank" class="me-4 text-white" rel="noreferrer">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="" class="me-4 text-white">
+                        <a href="https://www.youtube.com" target="_blank" class="me-4 text-white" rel="noreferrer">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
-                        <a href="" class="me-4 text-white">
+                        <a href="https://www.linkedin.com" target="_blank" class="me-4 text-white" rel="noreferrer">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="" class="me-4 text-white">
+                        <a href="https://www.whatsapp.com" target="_blank" class="me-4 text-white" rel="noreferrer">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </div>
