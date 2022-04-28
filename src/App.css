@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-  font-size: 15.5px;
+  font-size: 1rem;
 }
 p {
   margin-bottom: 0px;
@@ -24,4 +24,11 @@ p {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
   color: #26a9e0;
+}
+
+@media only screen and (max-width: 600px) {
+  :root,
+  * {
+    font-size: 0.9rem;
+  }
 }
