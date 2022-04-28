@@ -11,11 +11,9 @@ function Footer() {
                         <img alt=""
                             srcSet={logo}
                             width="170"
-                            // height="30"
-                            className="d-inline-block align-center pb-4" src={logo} alt="footerLogo" />
+                            className="d-inline-block align-center pb-4" src={logo} />
                         <p className=" mb-4 sub-title">
                             Starting its voyage in the year 2000 as a sister concern of Advent Enterprise which was established in 1986, in a humble fashion with only two persons on board, Prionty Edit & Effects today is one of the leading full-service agencies in the country with a particular focus on media buying.</p>
-                        {/* <div className="vl"></div> */}
                     </div>
                     <div className="col-lg-6 text-lg-center py-lg-0 my-lg-0 my-4 py-4 vl ">
                         <h4 className="text-uppercase" >Want to make something great together?</h4>
