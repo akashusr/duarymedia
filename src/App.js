@@ -6,13 +6,14 @@ import Career from './components/Career/Career';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Notification from './components/Notification';
 
 function App() {
   return (
     <>
-
       <Header />
       <Routes>
+        <Route path="/" element={<Notification />} />
         <Route path="/aboutUs" element={<Aboutus />} />
         <Route path="/contactUs" element={<Contact />} />
         <Route path="/career" element={<Career />} />

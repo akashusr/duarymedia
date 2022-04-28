@@ -20,8 +20,8 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav className="space-x-2">
-                            <Nav.Link as={Link} to="home">HOME</Nav.Link>
-                            <Nav.Link as={Link} to="services">SERVICES</Nav.Link>
+                            <Nav.Link as={Link} to="/">HOME</Nav.Link>
+                            <Nav.Link as={Link} to="/">SERVICES</Nav.Link>
                             <Nav.Link as={Link} to="aboutUS">ABOUT US</Nav.Link>
                             <Nav.Link as={Link} to="contactUs">CONTACT US</Nav.Link>
                             <Nav.Link as={Link} to="career">CAREER</Nav.Link>
