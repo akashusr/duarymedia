@@ -39,7 +39,7 @@ function Footer() {
                             <p className="mb-0" >FAX</p>
                             <a href="tel:+880-2-9895730"><p className=" text-white sub-title" >+880-2-9895730</p></a>
                         </div>
-                        <p className="text-uppercase sub-title" >House-167/b, flat-3, Road-23,
+                        <p className=" text-uppercase sub-title" >House-167/b, flat-3, Road-23,
                             Mohakhali DOHS, Dahaka- 1206</p>
                     </div>
                 </div>
