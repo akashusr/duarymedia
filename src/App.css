@@ -7,6 +7,9 @@
   font-family: Inter, sans-serif;
   font-size: 1rem;
 }
+body {
+  overflow: auto;
+}
 p {
   margin-bottom: 0px;
 }

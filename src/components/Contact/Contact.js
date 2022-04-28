@@ -21,7 +21,6 @@ function Contact() {
             </section>
             <section className="container">
                 <div className="row px-lg-4 flex-row-reverse ">
-
                     <div className="col-md-6 d-flex justify-content-center">
                         <div className="py-4" >
                             <h2 className=" pb-3">ADDRESS</h2>

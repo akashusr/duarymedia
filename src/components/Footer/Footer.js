@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className=" f-gray">
-            <div className="container ">
+            <div className="container overflow-hidden">
                 <div className="row  text-white py-4">
                     <div className="col vl">
                         <img alt=""

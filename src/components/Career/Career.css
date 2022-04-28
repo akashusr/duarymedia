@@ -10,5 +10,16 @@
   /* opacity: 70%; */
 }
 .mt {
-  margin-top: -5rem;
+  margin-top: -6.5rem;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+img.customImg {
+  width: 85%;
+}
+
+.blue {
+  color: #00bcd4;
 }
