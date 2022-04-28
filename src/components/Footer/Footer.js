@@ -53,16 +53,16 @@ function Footer() {
                     </div>
 
                     <div className="text-center p-2 text-white f-blue">
-                        <a href="https://www.facebook.com" target="_blank" class="me-4 text-white" rel="noreferrer">
+                        <a href="https://www.facebook.com" target="_blank" class="mx-3 text-white" rel="noreferrer">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="https://www.youtube.com" target="_blank" class="me-4 text-white" rel="noreferrer">
+                        <a href="https://www.youtube.com" target="_blank" class="mx-3 text-white" rel="noreferrer">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="me-4 text-white" rel="noreferrer">
+                        <a href="https://www.linkedin.com" target="_blank" class="mx-3 text-white" rel="noreferrer">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="https://www.whatsapp.com" target="_blank" class="me-4 text-white" rel="noreferrer">
+                        <a href="https://www.whatsapp.com" target="_blank" class="mx-3 text-white" rel="noreferrer">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </div>

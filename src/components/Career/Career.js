@@ -121,7 +121,7 @@ function Career() {
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div className="form-group">
-                                <label>Subject</label>
+                                <label>Submit cv/resume</label>
                                 <input type="file" className="form-control" id="exampleFormControlInput1" placeholder="" />
                             </div>
                             <div className="form-group py-2 ">
