@@ -18,7 +18,6 @@ function Career() {
                         </div>
                     </div>
                 </div>
-
                 <div className="light-blue mt">
                     <div className="container">
                         <div className="row py-4 px-4 px-lg-0">
