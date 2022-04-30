@@ -26,7 +26,6 @@ function Aboutus() {
                     </div>
                 </div>
 
-
                 <div className="title py-4  w-75 m-auto ">
                     <h2 className=" text-center blue " >Message from CEO</h2>
                     <hr className="w-25 m-auto " />
@@ -47,7 +46,7 @@ function Aboutus() {
                             <p>After completion his study from Dhaka University he started Advertising Business in 1986 under the name of Advent Enterprise with office located at 53 Motijheel Commercial Area, and shifted to 60/D Purana Paltan in 2000. He diversified into media buying and production unit under the name and title Prionty Edit & Effects in the same year at the same premises.
                             </p>
                             <br />
-                            <p>Presently the office is located at the third floor of House 48, Road 11, Block C, Banani, Dhaka 1213. The owned premise is equipped with all the related facilities for production, pre-production and expertise manpower for full-fledged support to the clients in it’s every wings.</p>
+                            <p>Presently the office is located at the third floor of House 48, Road 11, Block C, Banani, Dhaka 1213. The owned premise is equipped with all the related facilities for production, pre-production and expertise manpower for full-fledged support to the clients in it’s e very wings.</p>
                         </div>
                     </div>
 

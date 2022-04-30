@@ -28,7 +28,7 @@ function Career() {
                             </div>
                             <div className="col-md-6 d-flex align-items-start">
                                 <div>
-                                    <h2 className=" font-bold text-dark ">SERVICING <br />ACCOUNT EXECUTIVE</h2>
+                                    <h2 className="font-bold text-dark ">SERVICING <br />ACCOUNT EXECUTIVE</h2>
                                     <p className="py-2 py-lg-4 w-75">
                                         Ideal candidate should have experience in developing and executing marketing campaigns while managing and inspiring a team.
                                     </p>
