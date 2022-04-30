@@ -7,9 +7,9 @@ function Footer() {
     let currentTime = new Date();
     let year = currentTime.getFullYear();
     return (
-        <div className=" f-gray">
+        <div className="f-gray">
             <div className="container overflow-hidden">
-                <div className="row  text-white py-4">
+                <div className="row text-white py-4">
                     <div className="col vl">
                         <img alt=""
                             srcSet={logo}
@@ -69,7 +69,7 @@ function Footer() {
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                         <a href="https://akashahmed.netlify.app" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
-                            <img className="wImg" src={akashusr} alt="websiteCreator" /> Creator
+                            <img className="wImg" src={akashusr} alt="websiteCreator" />
                         </a>
                     </div>
                 </div>
