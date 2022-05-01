@@ -29,7 +29,7 @@ function Career() {
                             <div className="col-md-6 d-flex align-items-start">
                                 <div>
                                     <h2 className="font-bold text-dark ">SERVICING <br />ACCOUNT EXECUTIVE</h2>
-                                    <p className="py-2 py-lg-4 w-75">
+                                    <p className="py-2 py-lg-4 Dwidth">
                                         Ideal candidate should have experience in developing and executing marketing campaigns while managing and inspiring a team.
                                     </p>
                                     <button className=" my-2 my-lg-4  btn btn-dark text-white"> FULL DESCRIPTION </button>
@@ -47,7 +47,7 @@ function Career() {
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <div>
                                 <h2 className=" font-bold text-uppercase blue ">Creative Visualizer</h2>
-                                <p className="py-2 py-lg-4 w-75">
+                                <p className="py-2 py-lg-4 Dwidth">
                                     Our ideal candidate will have expert knowledge of current design software and skilled with every step of the design process from concept to the final deliverable.
                                 </p>
                                 <button className=" my-2 my-lg-4  btn btn-dark text-white"> FULL DESCRIPTION </button>
@@ -66,21 +66,22 @@ function Career() {
 
                 <div className="light-blue">
                     <div className="container">
-                        <div className="row py-4 px-4 px-lg-0">
-                            <div className="col-md-6 py-4 py-lg-0  ">
-                                <div className="w-100 d-flex align-items-center justify-content-center">
-                                    <img src={career3} alt="" className="img-fluid customImg " />
-                                </div>
-                            </div>
+                        <div className="row flex-row-reverse py-4 px-4 px-lg-0">
                             <div className="col-md-6 d-flex align-items-start">
                                 <div>
                                     <h2 className=" font-bold text-dark ">CREATIVE <br />STRATEGIC PLANNER</h2>
-                                    <p className="py-2 py-lg-4 w-75">
+                                    <p className="py-2 py-lg-4 Dwidth">
                                         Strategic planners at WebAble are the foundation of any creative project, and provide the team with information gleaned from studying markets for relevant data.
                                     </p>
                                     <button className=" my-2 my-lg-4  btn btn-dark text-white"> FULL DESCRIPTION </button>
                                     <br />
                                     <button className=" btn btn-dark text-white"> APPLY HERE</button>
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 py-4 py-lg-0  ">
+                                <div className="w-100 d-flex align-items-center justify-content-center">
+                                    <img src={career3} alt="" className="img-fluid customImg " />
                                 </div>
                             </div>
                         </div>
@@ -91,7 +92,7 @@ function Career() {
             <section className="container py-4">
                 <div className="row px-lg-4 ">
                     <div className="col-md-6 d-flex justify-content-start">
-                        <div className="py-4" >
+                        <div className="p-4" >
                             <h2 className=" font-bold">INTERSTED?</h2>
                             <p className=" pb-3">Fill in the form or just send us an email?</p>
 
@@ -124,7 +125,7 @@ function Career() {
                                 <input type="file" className="form-control" id="exampleFormControlInput1" placeholder="" />
                             </div>
                             <div className="form-group py-2 ">
-                                <button type="submit" className="btn px-4  py-2 btn-primary">Submit</button>
+                                <button type="submit" className="btn px-4 text-white py-2 bg-blue">Submit</button>
                             </div>
                         </form>
                     </div>

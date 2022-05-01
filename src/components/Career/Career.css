@@ -23,3 +23,18 @@ img.customImg {
 .blue {
   color: #00bcd4;
 }
+.bg-blue {
+  background-color: #00ace4;
+}
+.Dwhite {
+  width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  .Dwhite {
+    width: 100%;
+  }
+  img.customImg {
+    width: 100%;
+  }
+}

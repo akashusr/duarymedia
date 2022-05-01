@@ -79,7 +79,7 @@ function Contact() {
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div className="form-group py-2">
-                                <button type="submit" className="btn py-2 btn-primary">Submit</button>
+                                <button type="submit" className="btn py-2 px-4 bg-blue text-white">Submit</button>
                             </div>
                         </form>
                     </div>
