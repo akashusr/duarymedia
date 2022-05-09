@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: Inter, sans-serif;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 /* body {
   overflow: auto;
@@ -30,11 +31,10 @@ p {
   color: #26a9e0;
 }
 
-
 @media only screen and (max-width: 600px) {
   :root,
   * {
-    font-size: 0.9rem;
+    font-size: 0.89rem;
   }
 }
 
