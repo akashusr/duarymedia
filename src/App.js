@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Notification from './components/Notification';
+import Work from './components/Work/Work';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/aboutUs" element={<Aboutus />} />
         <Route path="/contactUs" element={<Contact />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
       <Footer />
     </>

@@ -1,0 +1,22 @@
+.bg {
+  background-image: url("../../image/careerBG.png");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-text {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+.light-blue {
+  background-color: #dff6febd;
+  /* opacity: 70%; */
+}
+.gray {
+  color: #2e2e2e;
+}
+.gallery-container-bg,
+.img-bg {
+  background-color: #edfaff;
+}
