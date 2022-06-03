@@ -51,7 +51,7 @@ function Footer() {
             <div className="f-blue" >
                 <div className="container d-lg-flex align-items-center justify-content-between p-2 text-white ">
                     <div>
-                        <p className="text-center mb-0">&copy; {year} <a className="text-white " href="https://duarymedia.com" > Duarymedia.com</a></p>
+                        <p className="text-center mb-0">&copy; {year} <a className="text-white cursor-pointer" href="https://duarymedia.com" >Duarymedia</a></p>
 
                     </div>
 
