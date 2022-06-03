@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React from 'react'
+import '../../App.css'
 import career1 from '../../image/career1.png'
 import career2 from '../../image/career2.png'
 import career3 from '../../image/career3.png'
@@ -8,12 +9,12 @@ function Career() {
     return (
         <>
             <section>
-                <div className="bg">
+                <div className="bg-common">
                     <div className="container h-100">
                         <div className="row align-items-center h-100">
                             <div className="col-12 mx-auto">
-                                <h1 className=" uppercase text-white text-center" >if you read 100 mind per second</h1>
-                                <h1 className=" uppercase text-white text-center" >we want you</h1>
+                                <h1 className=" text-uppercase text-white text-center" >if you read 100 mind per second</h1>
+                                <h1 className=" text-uppercase text-white text-center" >we want you</h1>
                             </div>
                         </div>
                     </div>
@@ -46,7 +47,7 @@ function Career() {
 
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <div>
-                                <h2 className=" font-bold text-uppercase blue ">Creative Visualizer</h2>
+                                <h2 className=" font-bold text-text-uppercase blue ">Creative Visualizer</h2>
                                 <p className="py-2 py-lg-4 Dwidth">
                                     Our ideal candidate will have expert knowledge of current design software and skilled with every step of the design process from concept to the final deliverable.
                                 </p>

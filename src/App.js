@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Notification from './components/Notification';
+import Services from './components/Services/Services';
 import Work from './components/Work/Work';
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Notification />} />
-        <Route path="/aboutUs" element={<Aboutus />} />
-        <Route path="/contactUs" element={<Contact />} />
+        <Route path="/about" element={<Aboutus />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<Career />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </>

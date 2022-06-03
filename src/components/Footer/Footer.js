@@ -7,9 +7,9 @@ function Footer() {
     let currentTime = new Date();
     let year = currentTime.getFullYear();
     return (
-        <div className="f-gray">
-            <div className="container overflow-hidden">
-                <div className="row text-white py-4">
+        <div className="f-gray ">
+            <div className="container pt-3 overflow-hidden">
+                <div className="row text-white py-5">
                     <div className="col vl">
                         <img alt=""
                             srcSet={logo}
@@ -19,7 +19,7 @@ function Footer() {
                             Starting its voyage in the year 2000 as a sister concern of Advent Enterprise which was established in 1986, in a humble fashion with only two persons on board, Prionty Edit & Effects today is one of the leading full-service agencies in the country with a particular focus on media buying.</p>
                     </div>
                     <div className="col-lg-6 text-lg-center py-lg-0 my-lg-0 my-4 py-4 vl ">
-                        <h4 className="text-uppercase" >Want to make something great together?</h4>
+                        <h4 className="text-text-uppercase" >Want to make something great together?</h4>
                         <h5 className="" >Let’s talk here or email us at</h5>
                         <a className="text-white" href="mailto:Info@duarymedia.com"><h3 className="py-lg-5 py-2 text-white" >Info@duarymedia.com</h3></a>
 
@@ -33,7 +33,7 @@ function Footer() {
 
                     </div>
                     <div className="col text-white">
-                        <h4 className="py-lg-0 mb-4 text-uppercase" >CONTACT US</h4>
+                        <h4 className="py-lg-0 mb-4 text-text-uppercase" >CONTACT US</h4>
                         <div className="num">
                             <p className="mb-0 sub-title" >OFFICE LINE</p>
                             <a href="tel:+88-02-8833475-6"><p className="text-white sub-title" >+88-02-8833475-6</p></a>
@@ -42,7 +42,7 @@ function Footer() {
                             <p className="mb-0" >FAX</p>
                             <a href="tel:+880-2-9895730"><p className=" text-white sub-title" >+880-2-9895730</p></a>
                         </div>
-                        <p className=" text-uppercase sub-title" >House-167/b, flat-2,mx-lg-3  Road-23,
+                        <p className=" text-text-uppercase sub-title" >House-167/b, flat-2,mx-lg-3  Road-23,
                             Mohakhali DOHS, Dahaka- 1206</p>
                     </div>
                 </div>
