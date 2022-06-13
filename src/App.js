@@ -22,12 +22,12 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/services" element={<Services />} />
       </Routes>
-      <div>
-        <MessengerCustomerChat
-          pageId="113142891379274"
-          appId="1059439958282047"
-        />
-      </div>
+
+      <MessengerCustomerChat
+        pageId="113142891379274"
+        appId="1059439958282047"
+      />
+
       <Footer />
     </>
   );
