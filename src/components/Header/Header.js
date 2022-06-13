@@ -20,10 +20,10 @@ function Header() {
                     <Nav className="space-x-2">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/services">Services</Nav.Link>
-                        <Nav.Link as={Link} to="about">About us</Nav.Link>
-                        <Nav.Link as={Link} to="contact">Contact us</Nav.Link>
-                        <Nav.Link as={Link} to="career">Career</Nav.Link>
-                        <Nav.Link as={Link} to="work">Work</Nav.Link>
+                        <Nav.Link as={Link} to="/about">About us</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
+                        <Nav.Link as={Link} to="/career">Career</Nav.Link>
+                        <Nav.Link as={Link} to="/work">Work</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

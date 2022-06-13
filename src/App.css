@@ -49,6 +49,8 @@ p {
   height: 2em;
 }
 .bg-common {
+  background: rgb(221, 245, 254);
+  background-blend-mode: multiply;
   background-image: url("./image/careerBG.png");
   height: 70vh;
   background-position: center;

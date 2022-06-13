@@ -4,7 +4,7 @@ import ceo from '../../image/ceo.jpg'
 import './Aboutus.css'
 function Aboutus() {
     return (
-        <div>
+        <section className="" >
             <section className="container " >
                 <div className="title py-4  w-75 m-auto ">
                     <h2 className=" text-center blue " >What Duary Does</h2>
@@ -52,7 +52,7 @@ function Aboutus() {
 
                 </div>
             </section>
-        </div>
+        </section>
     )
 }
 

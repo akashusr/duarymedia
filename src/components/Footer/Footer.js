@@ -69,7 +69,9 @@ function Footer() {
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                         <a href="https://akashahmed.netlify.app" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
-                            <img className="wImg" src={akashusr} alt="websiteCreator" />
+                            <img data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip"
+                                title="Website Creator Akash Ahmed." className="wImg" src={akashusr} alt="websiteCreator" />
                         </a>
                     </div>
                 </div>

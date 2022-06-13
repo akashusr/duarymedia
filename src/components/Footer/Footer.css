@@ -51,6 +51,10 @@ a:hover {
   background-clip: content-box, border-box;
 }
 
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
 @media only screen and (min-width: 1200px) {
   .vl {
     border-right: 2px solid #c3c3c3;
