@@ -35,6 +35,10 @@
 }
 
 .swiper-button-next:after,
-.swiper-button-prev:after,.btn:active {
+.swiper-button-prev:after,
+.btn:active {
   color: #ff2252;
+}
+.btn:active {
+  background-color: #fe3a64;
 }
