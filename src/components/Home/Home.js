@@ -24,6 +24,15 @@ function Home() {
                 <Slider />
             </div> */}
 
+            <div className=" card bg-light border-0 h-100">
+                <div className=" mx-auto w-75 card-body text-center p-5">
+                    <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-share-nodes"></i>
+                    <h1 className="fs-5 pt-4 pb-2 fw-bold">SOCIAL MEDIA MARKETING</h1>
+                    <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto, enim repellat ducimus quo rerum?</p>
+                    <button className="btn btn-red text-white" > Learn More</button>
+                </div>
+            </div>
+
             <div className="light-blue">
                 <div className="container">
                     <div className="row flex-row-reverse py-5 px-4 px-lg-0">
