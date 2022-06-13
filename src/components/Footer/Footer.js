@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import akashusr from '../../image/akashusr.png'
-import logo from '../../image/logoF.svg'
-import './Footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import akashusr from '../../image/akashusr.png';
+import logo from '../../image/logoF.svg';
+import './Footer.css';
 function Footer() {
     let currentTime = new Date();
     let year = currentTime.getFullYear();

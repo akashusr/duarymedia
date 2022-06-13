@@ -1,3 +1,4 @@
+import React from 'react'
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';

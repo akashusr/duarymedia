@@ -1,27 +1,28 @@
-// Import Swiper React components
+import React from 'react';
 import { Link } from 'react-router-dom';
+// import "swiper/css";
 import client from '../../image/client.png';
 import home1 from '../../image/home1.png';
 import './Home.css';
-import Slider from "./Slider";
+// import Slider from './Slider';
 function Home() {
     return (
-        <section>
+        <>
             <div className="bg-common">
                 <div className="container h-100">
                     <div className="row align-items-center h-100">
                         <div className="col-md-12 p-3 mx-auto">
                             <p className=" text-white text-center" >Prionty started it’s jounery from early 2000’s</p>
-                            <h1 className=" text-white font-bold text-center" >CONCEPT | CREATIVE | SOLUTION </h1>
+                            <h1 className=" text-white py-2 font-bold text-center" >CONCEPT | CREATIVE | SOLUTION </h1>
                             <p className="text-white text-center" >Connecting customer with your brand</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="container py-5">
+            {/* <div>
                 <Slider />
-            </div>
+            </div> */}
 
             <div className="light-blue">
                 <div className="container">
@@ -60,7 +61,7 @@ function Home() {
             </div>
             <img className='img-fluid' src={client} alt="" />
 
-        </section>
+        </>
     )
 }
 
