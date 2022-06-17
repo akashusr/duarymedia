@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import aboutImg from '../../image/aboutus.png'
 import ceo from '../../image/ceo.jpg'
 import './Aboutus.css'

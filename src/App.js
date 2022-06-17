@@ -1,4 +1,4 @@
-import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -27,6 +27,7 @@ function App() {
       <MessengerCustomerChat
         pageId="113142891379274"
         appId="1059439958282047"
+        htmlRef="DuaryMedia"
       />
 
       <Footer />

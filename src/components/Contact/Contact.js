@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Contact.css'
 function Contact() {
     return (
@@ -39,7 +39,7 @@ function Contact() {
                                 </div>
                             </div>
                             <div className="d-flex align-items-center">
-                                <p><i class="fa-solid fa-location-dot"></i></p>
+                                <p><i className="fa-solid fa-location-dot"></i></p>
                                 <div className="px-4">
                                     <p>House-167/B, Flat-3, Road-23</p>
                                     <p>Mohakhali DOHS, Dhaka- 1206</p>
@@ -79,7 +79,7 @@ function Contact() {
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div className="form-group py-2">
-                                <button type="submit" className="btn py-2 px-4 bg-blue text-white">Submit</button>
+                                <button type="submit" className="btn py-2 px-4 bg-blue text-black hover:text-black">Submit</button>
                             </div>
                         </form>
                     </div>

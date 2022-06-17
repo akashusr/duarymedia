@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../App.css'
-import image1 from '../../image/gallery1.png'
-import image2 from '../../image/gallery2.png'
-import image3 from '../../image/gallery3.png'
-import './Work.css'
+import '../../App.css';
+import image1 from '../../image/gallery1.png';
+import image2 from '../../image/gallery2.png';
+import image3 from '../../image/gallery3.png';
+import './Work.css';
 
 function Work() {
     return (
@@ -22,35 +22,35 @@ function Work() {
 
                 <div className="gallery-container-bg p-5">
                     <h1 className=" text-uppercase pb-4 text-center gray">GALLERY</h1>
-                    <div class="container w-lg-75 overflow-hidden">
-                        <div class="row gy-3">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                    <div className="container w-lg-75 overflow-hidden">
+                        <div className="row gy-3">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image1} alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image2} alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image3} alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image1} alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image2} alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image3} alt="" />
                                 </div>
                             </div>

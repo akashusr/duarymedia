@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../../App.css'
 import serviceimg1 from '../../image/serviceimg1.png'
 import serviceimg2 from '../../image/serviceimg2.png'
@@ -27,50 +27,50 @@ function Services() {
                 </div>
 
                 <div className=" p-5">
-                    <div class="container w-lg-75 overflow-hidden">
-                        <div class="row gy-3">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                    <div className="container w-lg-75 overflow-hidden">
+                        <div className="row gy-3">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>1. Strategic Planning</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>2. Media Buying</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>3. Creative & Design</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>4. Audiovisual Production</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>5. Digital Marketing</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>6. Event Managment</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>7. Web Development</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>8. pr</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-light p-3 text-uppercase text-blue border ">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="bg-light p-3 text-uppercase text-blue border ">
                                     <p>9. Monitoring</p>
                                 </div>
                             </div>

@@ -24,11 +24,12 @@ function Footer() {
                         <a className="text-white" href="mailto:Info@duarymedia.com"><h3 className="py-lg-5 py-2 text-white" >Info@duarymedia.com</h3></a>
 
                         <div className="link d-lg-flex justify-content-center">
-                            <Link as={Link} to="/" className="f-text pl-0 py-2 pr-2" >HOME</Link>
-                            <Link as={Link} to="/services" className="f-text p-2" >SERVICES</Link>
-                            <Link as={Link} to="/aboutUs" className="f-text p-2" >ABOUT US</Link>
-                            <Link as={Link} to="/contactUs" className="f-text p-2" >CONTACT US</Link>
-                            <Link as={Link} to="/career" className="f-text p-2" >CAREER</Link>
+                            <Link as={Link} to="/" className="f-text pl-0 py-2 pr-2" >Home</Link>
+                            <Link as={Link} to="/services" className="f-text p-2" >Services</Link>
+                            <Link as={Link} to="/about" className="f-text p-2" >About</Link>
+                            <Link as={Link} to="/contact" className="f-text p-2" >Contact us</Link>
+                            <Link as={Link} to="/career" className="f-text p-2" >Career</Link>
+                            <Link as={Link} to="/work" className="f-text p-2" >Work</Link>
                         </div>
 
                     </div>
@@ -56,21 +57,21 @@ function Footer() {
                     </div>
 
                     <div className="text-center p-2 text-white d-flex justify-content-center blue">
-                        <a href="https://www.facebook.com" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
-                            <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com" target="_blank" className="mx-2 mx-lg-3 text-white" rel="noopener noreferrer">
+                            <i className="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="https://www.youtube.com" target="_blank" class="mx-2 mx-lg-3  text-white" rel="noreferrer">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.youtube.com" target="_blank" className="mx-2 mx-lg-3  text-white" rel="noopener noreferrer">
+                            <i className="fa-brands fa-youtube"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
-                            <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com" target="_blank" className="mx-2 mx-lg-3 text-white" rel="noopener noreferrer">
+                            <i className="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="https://www.whatsapp.com" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
-                            <i class="fa-brands fa-whatsapp"></i>
+                        <a href="https://www.whatsapp.com" target="_blank" className="mx-2 mx-lg-3 text-white" rel="noopener noreferrer">
+                            <i className="fa-brands fa-whatsapp"></i>
                         </a>
-                        <a href="https://akashahmed.netlify.app" target="_blank" class="mx-2 mx-lg-3 text-white" rel="noreferrer">
+                        <a href="https://akashahmed.netlify.app" target="_blank" className="mx-2 mx-lg-3 text-white" rel="noopener noreferrer">
                             <img data-bs-toggle="tooltip" data-bs-placement="top"
-                                data-bs-custom-class="custom-tooltip"
+                                data-bs-custom-classname="custom-tooltip"
                                 title="Website Creator Akash Ahmed." className="wImg" src={akashusr} alt="websiteCreator" />
                         </a>
                     </div>

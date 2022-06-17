@@ -30,15 +30,8 @@
 .btn-red {
   background-color: #ff2252;
 }
-.btn:hover {
-  background-color: #fe3a64;
-}
 
 .swiper-button-next:after,
-.swiper-button-prev:after,
-.btn:active {
+.swiper-button-prev:after {
   color: #ff2252;
-}
-.btn:active {
-  background-color: #fe3a64;
 }
