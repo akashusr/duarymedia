@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import client from '../../image/client.png';
 import home1 from '../../image/home1.png';
 import './Home.css';
-// import Slider from './Slider';
+import HomeCarosel from './HomeCarosel';
 function Home() {
     return (
         <>
@@ -12,7 +12,7 @@ function Home() {
                 <div className="container h-100">
                     <div className="row align-items-center h-100">
                         <div className="col-md-12 p-3 mx-auto">
-                            <p className=" text-white text-center" >Prionty started it’s jounery from early 2000’s</p>
+                            <p className=" text-white text-center" >Duary Media started it’s jounery from early 2022</p>
                             <h1 className=" text-white py-2 font-bold text-center" >CONCEPT | CREATIVE | SOLUTION </h1>
                             <p className="text-white text-center" >Connecting customer with your brand</p>
                         </div>
@@ -20,17 +20,8 @@ function Home() {
                 </div>
             </div>
 
-            {/* <div>
-                <Slider />
-            </div> */}
-
-            <div className=" card bg-light border-0 h-100">
-                <div className=" mx-auto w-75 card-body text-center p-5">
-                    <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-share-nodes"></i>
-                    <h1 className="fs-5 pt-4 pb-2 fw-bold">SOCIAL MEDIA MARKETING</h1>
-                    <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto, enim repellat ducimus quo rerum?</p>
-                    <button className="btn btn-red text-black" > Learn More</button>
-                </div>
+            <div className="container" >
+                <HomeCarosel />
             </div>
 
             <div className="light-blue">

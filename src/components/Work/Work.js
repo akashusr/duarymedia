@@ -24,32 +24,32 @@ function Work() {
                     <h1 className=" text-uppercase pb-4 text-center gray">GALLERY</h1>
                     <div className="container w-lg-75 overflow-hidden">
                         <div className="row gy-3">
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image1} alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image2} alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image3} alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image1} alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image2} alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="bg-light">
                                     <img className='img-thumbnail img-bg' src={image3} alt="" />
                                 </div>
