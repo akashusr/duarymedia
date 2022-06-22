@@ -7,17 +7,15 @@
   font-family: Inter, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  scroll-behavior: smooth;
 }
-/* body {
-  overflow: auto;
-} */
+
 p {
   margin-bottom: 0px;
 }
 
 .App {
   text-align: center;
-  /* height: 100vh; */
 }
 
 .nav-link {
@@ -32,6 +30,9 @@ p {
 }
 .text-blue {
   color: #219cd0;
+}
+.l-blue {
+  background-color: #219cd0;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #5b5b5b;

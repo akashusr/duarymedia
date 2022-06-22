@@ -19,30 +19,34 @@ function Contact() {
                     />
                 </div>
             </section>
-            <section className="container">
+            <section className="container py-5 ">
                 <div className="row px-lg-4 flex-row-reverse ">
                     <div className="col-md-6 d-flex justify-content-center">
                         <div className="py-4" >
                             <h2 className=" pb-3">ADDRESS</h2>
-                            <div className="d-flex  align-items-center">
+
+                            <div className="d-flex py-3 align-items-center">
                                 <p><i className="fa-solid fa-square-phone"></i></p>
                                 <div className="px-4">
-                                    <p>+88-02-8833475</p>
-                                    <p>+88-02-8833476</p>
+                                    <a href="tel:+880-1746-421248"><p className="text-black" >+880 1746-421248
+                                    </p></a>
+                                    <a href="tel:+880-1534-945349"><p className="text-black" >+880 1534-945349
+                                    </p></a>
                                 </div>
                             </div>
+
                             <div className="d-flex py-4 align-items-center">
-                                <p><i className="fa-solid fa-square-phone"></i></p>
-                                <div className="px-4">
-                                    <p>+88-02-8833475</p>
-                                    <p>+88-02-8833476</p>
+                                <p><i className="fa-solid fa-envelope"></i></p>
+                                <div className="px-4  ">
+                                    <p>duarymedialtd@gmail.com</p>
+                                    <p>info@duarymedia.com</p>
                                 </div>
                             </div>
-                            <div className="d-flex align-items-center">
+
+                            <div className="d-flex py-2 align-items-center">
                                 <p><i className="fa-solid fa-location-dot"></i></p>
                                 <div className="px-4">
-                                    <p>House-167/B, Flat-3, Road-23</p>
-                                    <p>Mohakhali DOHS, Dhaka- 1206</p>
+                                    <p>House#167, Flat-03, Road 23, DOHS Mohakhali, Dhaka 1206</p>
                                 </div>
                             </div>
                         </div>

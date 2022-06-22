@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../../image/aboutus.png'
+import aboutImg from '../../image/aboutus.jpeg'
 import ceo from '../../image/ceo.jpg'
 import './Aboutus.css'
 function Aboutus() {
@@ -19,7 +19,7 @@ function Aboutus() {
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
-                            <p>Starting its voyage in the year 2000 as a sister concern of Advent Enterprise which was established in 1986, in a humble fashion with only two persons on board, Prionty Edit & Effects today is one of the leading full-service agencies in the country with a particular focus on media buying. Its insightful outputs had the core factor behind the success of a number of campaigns for a set of diverse brands in Bangladesh. No wonder, Prionty became a veritable dark horse in the Bangladesh communication industry after being awarded for its commendable success in different areas of its operation.</p>
+                            <p>In the year 2006, Duary Media Ltd Starting it's Journey in This Industry, in a humble fashion with only two persons on board, Duary Media Ltd today is one of the leading full-service agencies in the country with a particular focus on Digital Marketing. Its insightful outputs had the core factor behind the success of a number of campaigns for a set of diverse brands in Bangladesh.</p>
                             <br />
                             <p>Infrastructural, Prionty has all the components client service, research, creative, media (including cinema, outdoor and other non-conventional media), event management, production and administration & finance that a full-service advertising agency could have. In addition, it has a multimedia division that includes functions like film production and video editing.The team consists of a unique blend of the calm wisdom of the veteran and the enthusiasm of the youth.</p>
                         </div>
@@ -35,18 +35,19 @@ function Aboutus() {
                         <div className="d-flex justify-content-center">
                             <img src={ceo} alt="" className="img-fluid mb-4 w-75" />
                         </div>
-                        <h4 className="blue text-center" >Akash (Akash Ahmed)</h4>
-                        <p className="text-center" >CEO & Proprietor</p>
+                        <h4 className="blue text-center" >Sabiha Akhter Tora
+                        </h4>
+                        <p className="text-center" >Managing Director</p>
                     </div>
                     <div className="col-md-6 d-flex align-items-start">
                         <div>
-                            <p>Through a dynamic and visionary leadership and his inherent inspiring personality, Mr Pathan has given a new dimension in the field of media marketing. He has broken the traditional media-marketing theme and added innovative ideas, which has made him one of the most successful personalities in the media arena in Bangladesh and an idol to the newcomers.
+                            <p>Through a Dynamic and Visionary Leadership and his Inherent inspiring personality, Mrs. Sabiha Akhter Tora has given a new Dimension in the field of media marketing. She has Broken the traditional media-marketing theme and added him one of the most successful personality in the media arena in Bangladesh an idol to the Newcomers.
                             </p>
                             <br />
-                            <p>After completion his study from Dhaka University he started Advertising Business in 1986 under the name of Advent Enterprise with office located at 53 Motijheel Commercial Area, and shifted to 60/D Purana Paltan in 2000. He diversified into media buying and production unit under the name and title Prionty Edit & Effects in the same year at the same premises.
+                            <p>After completing his study in Jahangir Nagor University she started Construction Business under the name of Anik Construction ltd in 1994 with office located at Moghbazar Commercial Area. In 2006 She started Advertising Agency under the name of Duary Media ltd. Presently the office located at the third floor of House#167, Flat-03, Road 23,DOHS Mohakhali, Dhaka 1206.The all related  facilities for production, pre-production and expertise manpower for full fledged support to the clients in its every wings.
                             </p>
                             <br />
-                            <p>Presently the office is located at the third floor of House 48, Road 11, Block C, Banani, Dhaka 1213. The owned premise is equipped with all the related facilities for production, pre-production and expertise manpower for full-fledged support to the clients in it’s e very wings.</p>
+                            {/* <p>Presently the office is located at the third floor of House 48, Road 11, Block C, Banani, Dhaka 1213. The owned premise is equipped with all the related facilities for production, pre-production and expertise manpower for full-fledged support to the clients in it’s e very wings.</p> */}
                         </div>
                     </div>
 

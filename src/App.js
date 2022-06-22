@@ -27,7 +27,7 @@ function App() {
       <MessengerCustomerChat
         pageId="113142891379274"
         appId="1059439958282047"
-        htmlRef="DuaryMedia"
+      // htmlRef=""
       />
 
       <Footer />

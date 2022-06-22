@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css'
 import career1 from '../../image/career1.png'
 import career2 from '../../image/career2.png'
-import career3 from '../../image/career3.png'
 import './Career.css'
 function Career() {
     return (
@@ -28,7 +27,7 @@ function Career() {
                             </div>
                             <div className="col-md-6 d-flex align-items-start">
                                 <div>
-                                    <h2 className="font-bold text-dark ">SERVICING <br />ACCOUNT EXECUTIVE</h2>
+                                    <h2 className="font-bold text-primary ">SERVICING <br />ACCOUNT EXECUTIVE</h2>
                                     <p className="py-2 py-lg-4 Dwidth">
                                         Ideal candidate should have experience in developing and executing marketing campaigns while managing and inspiring a team.
                                     </p>
@@ -64,7 +63,7 @@ function Career() {
                     </div>
                 </div>
 
-                <div className="light-blue">
+                {/* <div className="light-blue">
                     <div className="container">
                         <div className="row flex-row-reverse py-4 px-4 px-lg-0">
                             <div className="col-md-6 d-flex align-items-start">
@@ -86,10 +85,10 @@ function Career() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
 
-            <section className="container py-4">
+            {/* <section className="container py-4">
                 <div className="row px-lg-4 ">
                     <div className="col-md-6 d-flex justify-content-start">
                         <div className="p-4" >
@@ -130,7 +129,7 @@ function Career() {
                         </form>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
