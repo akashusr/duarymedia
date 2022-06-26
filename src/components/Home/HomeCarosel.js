@@ -8,7 +8,7 @@ function HomeCarosel() {
                     <div className=" card bg-light border-0 h-100">
                         <div className=" mx-auto w-75 card-body text-center p-5">
                             <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-sun-plant-wilt"></i>
-                            <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercaseppercase">Strategic Planning</h1>
+                            <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Strategic Planning</h1>
                             <p className="pb-2 text-center ">Strategic planning is a process in which an organization's leaders define their <br /> vision for the future and identify their organization's goals and objectives...</p>
 
                             <Link to="/services" >
