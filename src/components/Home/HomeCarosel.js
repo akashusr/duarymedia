@@ -9,7 +9,7 @@ function HomeCarosel() {
                         <div className=" mx-auto w-75 card-body text-center p-5">
                             <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-sun-plant-wilt"></i>
                             <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercaseppercase">Strategic Planning</h1>
-                            <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                            <p className="pb-2 text-center ">Strategic planning is a process in which an organization's leaders define their <br /> vision for the future and identify their organization's goals and objectives...</p>
 
                             <Link to="/services" >
                                 <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
@@ -22,7 +22,7 @@ function HomeCarosel() {
                     <div className="d-block w-100 mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-desktop"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Media Buying</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto, <br /> enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">This is the Agency’s hard-dealing, street-wise section. The ever-vigilant members <br /> of the Media Department are tuned into the latest updates in the local media industry...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -33,7 +33,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-object-group"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Creative & Design</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">The members of this team keep the creative juice flowing through the <br /> sinews of the entire agency. At our Creative Department all the creative energy and...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -55,7 +55,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-brands icon-size fa-digital-ocean"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Digital Marketing</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">Digital marketing is marketing that takes place via Internet-connected devices. <br /> Email marketing, content marketing, social media marketing, and many other...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -66,7 +66,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-calendar-days"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Event Managment</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">From product launching to contract signing ceremonies, to press conferences <br /> to plant tours or any type of event or non-traditional promotions, our experienced...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
