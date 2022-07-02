@@ -44,7 +44,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-rocket"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Audiovisual Production</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">This program is intended to produce professionals capable of working in different <br /> areas related to the processes of content production for the main audiovisual means...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -77,7 +77,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-code"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Web Development</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">Web development is the work involved in developing a website for the Internet (World Wide Web) <br /> or an intranet a private Web development can range from developing a simple single...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -88,7 +88,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-heart"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">public relation</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">Public relations (PR) is the practice of managing and disseminating information from <br /> an individual or an organization such as a business, government agency, or a nonprofit...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
@@ -99,7 +99,7 @@ function HomeCarosel() {
                     <div className=" mx-auto w-75 card-body text-center p-5">
                         <i className=" py-2 px-3 bg-danger text-white rounded fa-brands icon-size fa-watchman-monitoring"></i>
                         <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Monitoring</h1>
-                        <p className="pb-2 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Porro iusto, enim repellat ducimus quo rerum?</p>
+                        <p className="pb-2 text-center ">Monitoring is the systematic process of collecting, analyzing and using information <br /> to track a programmer's progress toward reaching its objectives and to guide management ...</p>
                         <Link to="/services" >
                             <button className=" my-2 my-lg-4  btn btn-danger text-white"> Learn More </button>
                         </Link>
