@@ -4,8 +4,8 @@ function HomeCarosel() {
     return (
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active" data-bs-interval="10000">
-                    <div className=" card bg-light border-0 h-100">
+                <div className="carousel-item active" data-bs-interval="2000">
+                    <div className=" card border-0 h-100">
                         <div className=" mx-auto w-75 card-body text-center p-5">
                             <i className=" py-2 px-3 bg-danger text-white rounded fa-solid fa-sun-plant-wilt"></i>
                             <h1 className="fs-5 pt-4 pb-2 fw-bold text-uppercase">Strategic Planning</h1>
