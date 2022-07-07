@@ -27,7 +27,7 @@ function Aboutus() {
                 </div>
 
                 <div className="title py-4  w-75 m-auto ">
-                    <h2 className=" text-center blue " >Message from CEO</h2>
+                    <h2 className=" text-center blue " >Message from MD</h2>
                     <hr className="w-25 m-auto " />
                 </div>
                 <div className="row p-4 ">
@@ -41,16 +41,14 @@ function Aboutus() {
                     </div>
                     <div className="col-md-6 d-flex align-items-start">
                         <div>
-                            <p>Through a Dynamic and Visionary Leadership and his Inherent inspiring personality, Mrs. Sabiha Akhter Tora has given a new Dimension in the field of media marketing. She has Broken the traditional media-marketing theme and added him one of the most successful personality in the media arena in Bangladesh an idol to the Newcomers.
+                            <p>Through a Dynamic and Visionary Leadership and his Inherent inspiring personality, Mis. Sabiha Akhter Tora has given a new Dimension in the field of media marketing. She has Broken the traditional media-marketing theme and added him one of the most successful personality in the media arena in Bangladesh an idol to the Newcomers.
                             </p>
                             <br />
-                            <p>After completing his study in Jahangir Nagor University she started Construction Business under the name of Anik Construction ltd in 1994 with office located at Moghbazar Commercial Area. In 2006 She started Advertising Agency under the name of Duary Media ltd. Presently the office located at the third floor of House#167, Flat-03, Road 23,DOHS Mohakhali, Dhaka 1206.The all related  facilities for production, pre-production and expertise manpower for full fledged support to the clients in its every wings.
+                            <p>After completing his study in Rajshahi University she started Construction Business under the name of Anik Construction ltd in 2000 with office located at Moghbazar Commercial Area. In 2006 She started Advertising Agency under the name of Duary Media ltd. Presently the office located at the third floor of House#167, Flat-03, Road 23,DOHS Mohakhali, Dhaka 1206.The all related  facilities for production, pre-production and expertise manpower for full fledged support to the clients in its every wings.
                             </p>
                             <br />
-                            {/* <p>Presently the office is located at the third floor of House 48, Road 11, Block C, Banani, Dhaka 1213. The owned premise is equipped with all the related facilities for production, pre-production and expertise manpower for full-fledged support to the clients in it’s e very wings.</p> */}
                         </div>
                     </div>
-
                 </div>
             </section>
         </section>

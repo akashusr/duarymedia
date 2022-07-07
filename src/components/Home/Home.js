@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
-import home1 from '../../image/home1.png';
+import home1 from '../../image/Office Photo.jpg';
 import client1 from '../../image/Client Logo/Client Logo-01.png';
 import client2 from '../../image/Client Logo/Client Logo-02.png';
 import client3 from '../../image/Client Logo/Client Logo-03.png';
@@ -19,7 +19,7 @@ import HomeCarosel from './HomeCarosel';
 function Home() {
     return (
         <>
-            <div className="bg-common">
+            <div className="bg-home">
                 <div className="container h-100">
                     <div className="row align-items-center h-100">
                         <div className="col-md-12 p-3 mx-auto">

@@ -4,9 +4,12 @@ function Contact() {
     return (
         <>
             <section className="contact-bg" >
+
+
+
                 <div className="container overflow-hidden p-4 d-flex justify-content-center align-center ">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29213.342075426615!2d90.36168923052763!3d23.75922436342573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b942f7b533e3%3A0x62732791e9976ce!2sDuary%20Media%20Limited!5e0!3m2!1sen!2sbd!4v1650990309314!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1990.7411921439045!2d90.39361496091355!3d23.781741395492748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76a3e3252f9%3A0xd100efd864ec3c7a!2zMjPCsDQ2JzU0LjkiTiA5MMKwMjMnNDEuNiJF!5e0!3m2!1sen!2sbd!4v1657199049152!5m2!1sen!2sbd"
                         width="950"
                         height="350"
                         frameBorder="0"
